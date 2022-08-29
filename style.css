@@ -22,6 +22,9 @@ body{
     background-color: var(--clr-cream);
     font-family: 'DM Sans', sans-serif;
 }
+h1{
+    font-size: 32px;
+}
 .chart-wrapper{
     display: flex;
     flex-direction: column;
@@ -29,7 +32,7 @@ body{
 }
 .balance{
     background-color: var(--clr-soft-red);
-    padding: 15px;
+    padding: 25px;
     border-radius: 8px;
     display: flex;
     align-items: center;
@@ -45,7 +48,7 @@ body{
 
 .chart-section{
     background-color: var(--clr-very-pale-orange);
-    padding: 15px;
+    padding: 25px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -122,6 +125,9 @@ hr{
 }
 
 @media only screen and (max-width: 376px){
+    h1{
+        font-size: 24px;;
+    }
     .chart{
         gap: 5px;
     }
@@ -132,9 +138,12 @@ hr{
         font-size: 10px;
     }
     .chart-wrapper{
-        padding: 10px;
+        gap: 10px;
     }
     .balance{
+        padding: 10px;
+    }
+    .chart-section{
         padding: 10px;
     }
 }
