@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="chart-wrapper">
+    <div class="balance">
+      <p class="balance-text">
+        My balance
+        <span class="balance-value">
+          $921.48
+        </span>
+      </p>
+      <img src="./images/logo.svg" alt="">
+    </div>
+    <div class="chart-section">
+      <h1>Spending - Last 7 days</h1>
+      <div class="chart">
+        <div class="column">
+          <div class="column-value">$7.5</div>
+          <div class="column-chart current"></div>
+          <div class="column-index">mon</div>
+        </div>
+        <div class="column">
+          <div class="column-value">$7.5</div>
+          <div class="column-chart"></div>
+          <div class="column-index">tue</div>
+        </div>
+        <div class="column">
+          <div class="column-value">$7.5</div>
+          <div class="column-chart"></div>
+          <div class="column-index">wed</div>
+        </div>
+        <div class="column">
+          <div class="column-value">$7.5</div>
+          <div class="column-chart" ></div>
+          <div class="column-index">thu</div>
+        </div>
+        <div class="column">
+          <div class="column-value">$7.5</div>
+          <div class="column-chart" ></div>
+          <div class="column-index">fri</div>
+        </div>
+        <div class="column">
+          <div class="column-value">$7.5</div>
+          <div class="column-chart" ></div>
+          <div class="column-index">sat</div>
+        </div>
+        <div class="column">
+          <div class="column-value">$7.5</div>
+          <div class="column-chart" ></div>
+          <div class="column-index">san</div>
+        </div>
+      </div>
+      <hr>
+      <div class="chart-recap">
+        <p class="recap-this-month">
+          Total this month
+          <span class="recap-this-month-value">
+            $478.33
+          </span>
+        </p>
+        <p class="recap-perc">
+          +2.4%
+          <span class="recap-from-last-month">
+            from last month
+          </span>
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--
+  My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  -->
+  <script type="text/javascript" src="data.json"></script>
+  <script src="index.js"></script>
+</body>
+</html>
